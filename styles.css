@@ -20,24 +20,6 @@
             color: #1a1a1a;
         }
 
-        /* Galeria de Fotos - Ajustada para os seus arquivos */
-        .galeria {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-            gap: 20px;
-            max-width: 1100px;
-            margin: 30px auto;
-            padding: 0 20px;
-        }
-
-        .galeria img {
-            width: 100%;
-            height: 450px; /* Altura ideal para fotos de celular */
-            object-fit: cover; /* Ajusta a imagem sem esticar */
-            border-radius: 12px;
-            box-shadow: 0 4px 10px rgba(0,0,0,0.1);
-        }
-
         .container {
             max-width: 900px;
             margin: 0 auto;
@@ -59,16 +41,17 @@
             border-radius: 15px;
             border: 1px solid #eee;
         }
-        .card-pilar h3 { color: #d4a373; margin-top: 0; text-transform: uppercase; }
+        
 
         /* Modo de Uso */
         .modo-uso {
-            background-color: #fff;
+            background-color: #b7b7b7;
             padding: 30px;
             border-radius: 15px;
             margin: 40px 0;
             text-align: left;
             border: 2px solid #f0f0f0;
+           
         }
         .passo { margin-bottom: 12px; display: flex; align-items: baseline; }
         .passo strong { color: #d4a373; margin-right: 8px; }
